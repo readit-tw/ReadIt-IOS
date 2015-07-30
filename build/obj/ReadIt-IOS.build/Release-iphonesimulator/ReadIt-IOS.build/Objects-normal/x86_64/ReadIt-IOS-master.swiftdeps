@@ -1,5 +1,0 @@
-version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
-options: "8983102859a356b45e2f7fd160bbe094"
-inputs: 
-- "/Users/rajashrk/Documents/ReadIt/ReadIt-IOS/ReadIt-IOS/ViewController.swift"
-- "/Users/rajashrk/Documents/ReadIt/ReadIt-IOS/ReadIt-IOS/AppDelegate.swift"
