@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0E7047941B689BC300FEBF37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7047931B689BC300FEBF37 /* AppDelegate.swift */; };
-		0E7047961B689BC300FEBF37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7047951B689BC300FEBF37 /* ViewController.swift */; };
+		0E7047961B689BC300FEBF37 /* ResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7047951B689BC300FEBF37 /* ResourceViewController.swift */; };
 		0E7047991B689BC300FEBF37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E7047971B689BC300FEBF37 /* Main.storyboard */; };
 		0E70479B1B689BC300FEBF37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E70479A1B689BC300FEBF37 /* Images.xcassets */; };
 		0E70479E1B689BC300FEBF37 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E70479C1B689BC300FEBF37 /* LaunchScreen.xib */; };
 		0E7047AA1B689BC400FEBF37 /* ReadIt_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7047A91B689BC400FEBF37 /* ReadIt_IOSTests.swift */; };
 		0E7047B61B68ACBE00FEBF37 /* build.gradle in Resources */ = {isa = PBXBuildFile; fileRef = 0E7047B51B68ACBE00FEBF37 /* build.gradle */; };
+		0E8D54341B69EE2B009396C0 /* ResourceViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF5D3711B68EC150060B67C /* ResourceViewControllerTest.swift */; };
+		0E8D54351B69EE41009396C0 /* ResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7047951B689BC300FEBF37 /* ResourceViewController.swift */; };
+		0E8D54371B69FE60009396C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E7047971B689BC300FEBF37 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +33,7 @@
 		0E70478E1B689BC300FEBF37 /* ReadIt-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReadIt-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E7047921B689BC300FEBF37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E7047931B689BC300FEBF37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0E7047951B689BC300FEBF37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0E7047951B689BC300FEBF37 /* ResourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceViewController.swift; sourceTree = "<group>"; };
 		0E7047981B689BC300FEBF37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0E70479A1B689BC300FEBF37 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0E70479D1B689BC300FEBF37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -38,6 +41,7 @@
 		0E7047A81B689BC400FEBF37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E7047A91B689BC400FEBF37 /* ReadIt_IOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadIt_IOSTests.swift; sourceTree = "<group>"; };
 		0E7047B51B68ACBE00FEBF37 /* build.gradle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = build.gradle; sourceTree = "<group>"; };
+		0EF5D3711B68EC150060B67C /* ResourceViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceViewControllerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				0E7047931B689BC300FEBF37 /* AppDelegate.swift */,
-				0E7047951B689BC300FEBF37 /* ViewController.swift */,
+				0E7047951B689BC300FEBF37 /* ResourceViewController.swift */,
 				0E7047971B689BC300FEBF37 /* Main.storyboard */,
 				0E70479A1B689BC300FEBF37 /* Images.xcassets */,
 				0E70479C1B689BC300FEBF37 /* LaunchScreen.xib */,
@@ -102,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				0E7047A91B689BC400FEBF37 /* ReadIt_IOSTests.swift */,
+				0EF5D3711B68EC150060B67C /* ResourceViewControllerTest.swift */,
 				0E7047A71B689BC400FEBF37 /* Supporting Files */,
 			);
 			path = "ReadIt-IOSTests";
@@ -206,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E8D54371B69FE60009396C0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E7047961B689BC300FEBF37 /* ViewController.swift in Sources */,
+				0E7047961B689BC300FEBF37 /* ResourceViewController.swift in Sources */,
 				0E7047941B689BC300FEBF37 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,7 +231,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E8D54341B69EE2B009396C0 /* ResourceViewControllerTest.swift in Sources */,
 				0E7047AA1B689BC400FEBF37 /* ReadIt_IOSTests.swift in Sources */,
+				0E8D54351B69EE41009396C0 /* ResourceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +354,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = "ReadIt-IOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -356,6 +365,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = "ReadIt-IOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -366,6 +376,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -385,6 +396,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -415,6 +427,7 @@
 				0E7047AF1B689BC400FEBF37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E7047B01B689BC400FEBF37 /* Build configuration list for PBXNativeTarget "ReadIt-IOSTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +436,7 @@
 				0E7047B21B689BC400FEBF37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
