@@ -7,3 +7,17 @@
 //
 
 import Foundation
+
+class ReadResource{
+    
+    var title : String!
+    var link : NSURL!
+
+    init(title:String, link:NSURL)
+    {
+        self.title = title
+        self.link = link
+    }
+    
+
+}

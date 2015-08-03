@@ -17,6 +17,7 @@
 		0E8D54341B69EE2B009396C0 /* ResourceViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF5D3711B68EC150060B67C /* ResourceViewControllerTest.swift */; };
 		0E8D54351B69EE41009396C0 /* ResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7047951B689BC300FEBF37 /* ResourceViewController.swift */; };
 		0E8D54371B69FE60009396C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E7047971B689BC300FEBF37 /* Main.storyboard */; };
+		0E8D54391B6B7AE6009396C0 /* ReadResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8D54381B6B7AE6009396C0 /* ReadResource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		0E7047A81B689BC400FEBF37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E7047A91B689BC400FEBF37 /* ReadIt_IOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadIt_IOSTests.swift; sourceTree = "<group>"; };
 		0E7047B51B68ACBE00FEBF37 /* build.gradle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = build.gradle; sourceTree = "<group>"; };
+		0E8D54381B6B7AE6009396C0 /* ReadResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadResource.swift; sourceTree = "<group>"; };
 		0EF5D3711B68EC150060B67C /* ResourceViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceViewControllerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,6 +92,7 @@
 				0E70479A1B689BC300FEBF37 /* Images.xcassets */,
 				0E70479C1B689BC300FEBF37 /* LaunchScreen.xib */,
 				0E7047911B689BC300FEBF37 /* Supporting Files */,
+				0E8D54381B6B7AE6009396C0 /* ReadResource.swift */,
 			);
 			path = "ReadIt-IOS";
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 			files = (
 				0E7047961B689BC300FEBF37 /* ResourceViewController.swift in Sources */,
 				0E7047941B689BC300FEBF37 /* AppDelegate.swift in Sources */,
+				0E8D54391B6B7AE6009396C0 /* ReadResource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
