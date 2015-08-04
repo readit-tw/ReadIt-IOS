@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E581F4C1B6F806F0065B72B /* AddResourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E581F4B1B6F806F0065B72B /* AddResourceController.swift */; };
+		0E581F4E1B6F8FDF0065B72B /* TextInputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E581F4D1B6F8FDF0065B72B /* TextInputTableViewCell.swift */; };
 		0E7047941B689BC300FEBF37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7047931B689BC300FEBF37 /* AppDelegate.swift */; };
 		0E7047961B689BC300FEBF37 /* ResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7047951B689BC300FEBF37 /* ResourceViewController.swift */; };
 		0E7047991B689BC300FEBF37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E7047971B689BC300FEBF37 /* Main.storyboard */; };
@@ -31,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E581F4B1B6F806F0065B72B /* AddResourceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddResourceController.swift; sourceTree = "<group>"; };
+		0E581F4D1B6F8FDF0065B72B /* TextInputTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextInputTableViewCell.swift; sourceTree = "<group>"; };
 		0E70478E1B689BC300FEBF37 /* ReadIt-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReadIt-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E7047921B689BC300FEBF37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E7047931B689BC300FEBF37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +97,8 @@
 				0E70479C1B689BC300FEBF37 /* LaunchScreen.xib */,
 				0E7047911B689BC300FEBF37 /* Supporting Files */,
 				0E8D54381B6B7AE6009396C0 /* ReadResource.swift */,
+				0E581F4B1B6F806F0065B72B /* AddResourceController.swift */,
+				0E581F4D1B6F8FDF0065B72B /* TextInputTableViewCell.swift */,
 			);
 			path = "ReadIt-IOS";
 			sourceTree = "<group>";
@@ -225,9 +231,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E581F4E1B6F8FDF0065B72B /* TextInputTableViewCell.swift in Sources */,
 				0E7047961B689BC300FEBF37 /* ResourceViewController.swift in Sources */,
 				0E7047941B689BC300FEBF37 /* AppDelegate.swift in Sources */,
 				0E8D54391B6B7AE6009396C0 /* ReadResource.swift in Sources */,
+				0E581F4C1B6F806F0065B72B /* AddResourceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

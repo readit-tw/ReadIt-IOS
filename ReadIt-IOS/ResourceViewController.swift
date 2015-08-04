@@ -15,23 +15,36 @@ class ResourceViewController: UIViewController
     
     @IBOutlet var resourceListTable: UITableView!
     
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
+          // Do any additional setup after loading the view, typically from a nib.
+
         
-        loadResources();
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewWillAppear(animated: Bool) {
+        
+        loadResources();
+    }
     
+    override func viewWillDisappear(animated: Bool) {
+        
+        var CancelBarButton = UIBarButtonItem(title:"Cancel", style:UIBarButtonItemStyle.Plain, target:self, action:Selector("loadResources"))
+        self.navigationItem.hidesBackButton = true
+        self.navigationItem.backBarButtonItem = CancelBarButton;
+    }
     
     func loadResources()
     {
+        
+        resources.removeAll();
         let urlString = "http://readit.thoughtworks.com/resources"
         let url = NSURL(string: urlString);
         let request = NSURLRequest(URL: url!);
@@ -73,7 +86,7 @@ class ResourceViewController: UIViewController
             
         }
         
-        UIApplication.sharedApplication().networkActivityIndicatorVisible = true
+        UIApplication.sharedApplication().networkActivityIndicatorVisible = false
 
         
     }
